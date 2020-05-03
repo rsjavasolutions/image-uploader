@@ -8,16 +8,23 @@ public class TestApi {
 
     @GetMapping("/test1")
     public String getTest1() {
-        return "Test1";
+        return "Hello You are Admin or User";
     }
 
     @GetMapping("/test2")
     public String getTest2() {
-        return "Test2";
+        return "Hello User";
     }
 
     @GetMapping("/test3")
     public String getTest3() {
-        return "Test3";
+        return "Hello Admin";
     }
+    @GetMapping("/test4")
+    public String getTest4() {
+        return "Hello World";
+    }
+
+
+
 }
